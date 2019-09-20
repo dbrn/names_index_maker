@@ -6,8 +6,9 @@ It works by passing arguments and, as for now, the only option is the page delta
 I hope it makes sense :)
 Here I paste a sample output screen:
 
-(base) barzi@B:~/PycharmProjects/indice_nomi$ python3 scratch.py AA9_fumagalli.pdf nomi.txt answer.txt 10 -d 1
 <pre style="background-color: black; color: grey;">
+(base) barzi@B:~/PycharmProjects/indice_nomi$ python3 scratch.py AA9_fumagalli.pdf nomi.txt answer.txt 10 -d 1
+
 Parsing: Boccali
 	'Boccali' found in page 2
 	'Boccali' found in page 5
