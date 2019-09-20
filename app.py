@@ -60,7 +60,7 @@ for name in names_list:
             item = line.replace("\t", " ")
             bs = BeautifulSoup(item, "html.parser")
             if bs.p is not None:
-                if (name.lower() + " ") in str(bs.p.text).lower():
+                if name.title() in str(bs.p.text):
                     font_index = str(bs.p.span["style"]).find("font-size")
                     font_size = str(bs.p.span["style"][font_index:]
                                     ).lstrip("font-size:")[:2
