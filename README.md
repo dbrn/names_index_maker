@@ -1,4 +1,4 @@
-<h2># names_index_maker</h2>
+<h2 style="background-color: blue"># names_index_maker</h2>
 This is a python3 script that look for a list of names inside a PDF and extracts number of the page where they appear.
 It can be used to indicize books in pdf format, where the text is readable (no PDFs made with images only).
 I made this little app to automatize a rather tedious task that I normally had to do manually for each book the company I work for publishes.
